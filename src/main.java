@@ -10,7 +10,7 @@ public class main {
         products.add(product1);
         products.add(product2);
         products.add(product3);
-
+        orderManager.order(products);
     }
 
 }

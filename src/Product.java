@@ -7,7 +7,16 @@ public abstract class Product {
         this.stockQuantity = stockQuantity;
         this.unitPrice = unitPrice;
     }
-    public abstract double totalPrice(double unitPrice);
 
+    public static double totalPrice(double unitPrice) {
+        return 0;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
